@@ -1,4 +1,4 @@
-RFM stand for:  
+### RFM stand for:  
 Recency: The freshness of the relationship between your brand and your customer; i.e. how recently customer last bought a product.  
 Frequency: The measure of demand; how many times customer have purchased.  
 Monetary value: View the monetary value or the proportional value of every selected group of customers compared to the rest.  
@@ -9,7 +9,7 @@ Then We calculate r_quartile, f_quartile, m_quartile according to Recency, Frequ
 Then We Find RMF score per user by combining r_quartile, f_quartile, m_quartile.  
 
 RFM segmentation is very easy to understand and analyse rather than K-means.  
-|SEGMENT|________________________|RMF SCORE|  
+### |SEGMENT|________________________|RMF SCORE|  
 Best Customers:__________________111  
 Loyal Customers:_________________*1*  
 Big Spenders:____________________**1  
