@@ -14,7 +14,7 @@ Best Customers:------------------>111
 Loyal Customers:----------------->*1*  
 Big Spenders:-------------------->**1  
 Almost Lost Customers:----------->311  
-Lost Customers:------------------>1  
+Lost Customers:------------------>4*1   
 Lost Cheap Customers:------------>444  
 
 Here RMF score '111' means customer's Recency, Frequency and spending all falls in first Quartile and is very interpretable that, a very frequent cutomer who purchases much and had a recent purchase is Best Customer.  
