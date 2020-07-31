@@ -4,24 +4,24 @@ Given an e-commerce dataset where each record is a combination of some user 'u' 
 
 #### Data Provided
 data provided was a cleaned data with unknown attributes. Data Contains date columns as well and some of the features were already scaled.
-[Readme1](link)
+[Readme1](https://github.com/shivendrapratap2/Machine-Learning-And-Data-Science/blob/master/Affinity%20Analysis/Images/data.PNG)
 
 #### Data Pre-processing
 To Explorer and Analyse data, converted it into pandas DataFrame and after analysing the columns converted them into proper data type ex. Integer, float, datetime.
-[Readme1](link)
+[Readme2](https://github.com/shivendrapratap2/Machine-Learning-And-Data-Science/blob/master/Affinity%20Analysis/Images/dataframe.PNG)
 
 ### Exploratory Data Analysis
 #### Imbalanced Class problem
 Firstly decided to find the distribution of class labels and found around 76% labels were ‘0’  and only 24% records were labelled as ‘1’. A Model can achieve 76% accuracy ny just predicting ‘0’ for all records. To handle imbalance class problem we can do Up-sampling of minority classes and Down-sampling of Majority classes using sklearn’s resample module. But I decided to choose confusion matrix as the performance measure instead of accuracy.  
-[Readme1](link)
+[Readme3](https://github.com/shivendrapratap2/Machine-Learning-And-Data-Science/blob/master/Affinity%20Analysis/Images/data.PNG)
 
 #### Correlation and Multi-collinearity Check
 Checked the correlation among numerical attributes and found attribute F-19 and F-20  were correlated with F-17 and F-18  respectively with +ve value of .68. In VIF test for multi-collinearity, attributes F19 and F20 were highly multi-correlated, so decided to drop them from dataset.
-[Readme1](link)
+[Readme4](https://github.com/shivendrapratap2/Machine-Learning-And-Data-Science/blob/master/Affinity%20Analysis/Images/class_dist.PNG)
 
 #### Class Distribution Check For numerical columns
 Tried to find a distinguishable pattern in numerical columns to check whether Binnig them would help the model in classification but got to know that distribution was closely same across all the possible Bins and it was disappointing.
-[Readme1](link)
+[Readme5](https://github.com/shivendrapratap2/Machine-Learning-And-Data-Science/blob/master/Affinity%20Analysis/Images/Binning.PNG)
 
 Note: [here (0,0,0,0,0) represents that all F5-F9 values are –ve and 3175 shows count of such records. 792 shows count of C=1 across such records]
 
