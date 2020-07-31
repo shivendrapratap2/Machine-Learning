@@ -3,7 +3,7 @@ Ability of a program to perform a complex task (can't be done by agent itself) o
 
 
           
-![Readme1](https://github.com/shivendrapratap2/Machine-Learning-And-Data-Science/blob/master/Readme_Images/ML.jpg)
+![Readme3](https://github.com/shivendrapratap2/Machine-Learning-And-Data-Science/blob/master/Readme_Images/ML.jpg)
 
 Machine Learning Algorithms plays an important role in solving real world problems using Data.
 
