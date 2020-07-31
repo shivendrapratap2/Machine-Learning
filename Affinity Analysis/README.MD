@@ -50,8 +50,8 @@ This time Logistic Regression model went rouge and predicted all classes to 0 an
 Random Forest was seems to perform well on train and test dataset as well. It got 100% of accuracy on train set and around 75% on validation set.  
 ![Readme7](https://github.com/shivendrapratap2/Machine-Learning-And-Data-Science/blob/master/Affinity%20Analysis/Images/rf_train.PNG)
 ![Readme8](https://github.com/shivendrapratap2/Machine-Learning-And-Data-Science/blob/master/Affinity%20Analysis/Images/rf_val.PNG)                                                        
-Observation:
-i.	Logistic Regression model was not working with our choices. 
+Observation:  
+i.	Logistic Regression model was not working with our choices.  
 ii.	Random Forest model was overfit.
 
 
