@@ -9,7 +9,7 @@ Then We calculate r_quartile, f_quartile, m_quartile according to Recency, Frequ
 Then We Find RMF score per user by combining r_quartile, f_quartile, m_quartile.  
 
 RFM segmentation is very easy to understand and analyse rather than K-means.  
-### |SEGMENT|________________________|RMF SCORE|  
+#### |SEGMENT|___________________|RMF SCORE|  
 Best Customers:__________________111  
 Loyal Customers:_________________*1*  
 Big Spenders:____________________**1  
