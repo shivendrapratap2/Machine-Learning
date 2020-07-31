@@ -10,12 +10,12 @@ Then We Find RMF score per user by combining r_quartile, f_quartile, m_quartile.
 
 RFM segmentation is very easy to understand and analyse rather than K-means.  
 #### |SEGMENT|___________________|RMF SCORE|  
-Best Customers:------------------>111  
-Loyal Customers:----------------->*1*  
-Big Spenders:-------------------->**1  
-Almost Lost Customers:----------->311  
-Lost Customers:------------------>4*1   
-Lost Cheap Customers:------------>444  
+Best Customers:------------------> 111  
+Loyal Customers:-----------------> *1*  
+Big Spenders:--------------------> **1  
+Almost Lost Customers:-----------> 311  
+Lost Customers:------------------> 4*1   
+Lost Cheap Customers:------------> 444  
 
 Here RMF score '111' means customer's Recency, Frequency and spending all falls in first Quartile and is very interpretable that, a very frequent cutomer who purchases much and had a recent purchase is Best Customer.  
 We can Also set no. of quantiles according to segments we want our customers to classify in.  
