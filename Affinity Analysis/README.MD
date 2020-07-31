@@ -20,7 +20,7 @@ Checked the correlation among numerical attributes and found attribute F-19 and 
 ![Readme4](https://github.com/shivendrapratap2/Machine-Learning-And-Data-Science/blob/master/Affinity%20Analysis/Images/corr_mat.PNG)
 
 #### Class Distribution Check For numerical columns
-Tried to find a distinguishable pattern in numerical columns to check whether Binnig them would help the model in classification but got to know that distribution was closely same across all the possible Bins and it was disappointing.
+Tried to find a distinguishable pattern in numerical columns to check whether Binnig them would help the model in classification but got to know that distribution was closely same across all the possible Bins and it was disappointing.  
 ![Readme5](https://github.com/shivendrapratap2/Machine-Learning-And-Data-Science/blob/master/Affinity%20Analysis/Images/Binning.PNG)
 
 Note: [here (0,0,0,0,0) represents that all F5-F9 values are –ve and 3175 shows count of such records. 792 shows count of C=1 across such records]
