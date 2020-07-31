@@ -29,7 +29,7 @@ Note: [here (0,0,0,0,0) represents that all F5-F9 values are –ve and 3175 show
 An additional feature was created using Date columns provided considering one as product expiry date and another as product purchase date. Initially This Feature was categorical (1 if D.o. Expiry > D.o . Purchase otherwise 0).
 
 #### Model Iteration 1
-Split the data into 80-20% ration of train and validation split and Ran down the very first iteration of Logistic Regression. Result wasn’t very satisfactory. Confusion matrix was poor.
+Split the data into 80-20% ration of train and validation split and Ran down the very first iteration of Logistic Regression. Result wasn’t very satisfactory. Confusion matrix was poor.  
 ![Readme6](https://github.com/shivendrapratap2/Machine-Learning-And-Data-Science/blob/master/Affinity%20Analysis/Images/1st_iter.PNG)
 
 Observation:  
