@@ -30,7 +30,8 @@ An additional feature was created using Date columns provided considering one as
 
 #### Model Iteration 1
 Split the data into 80-20% ration of train and validation split and Ran down the very first iteration of Logistic Regression. Result wasn’t very satisfactory. Confusion matrix was poor.
- 
+![Readme6](https://github.com/shivendrapratap2/Machine-Learning-And-Data-Science/blob/master/Affinity%20Analysis/Images/1st_iter.PNG)
+
 Observation:  
 i.	Coefficients for most of high value numerical columns were zero. They were not participating in any prediction.  
 ii.	Date flag created wasn’t working in its categorical form.  
@@ -43,11 +44,12 @@ iii.	Instead of Categorical Flag, created feature was directly taken as differen
 iv.	Reduced the no. of features using PCA.(Principle component Analysis)  
 Note: PCA was done on group of five columns (F5-F9 and F10-F14) having same magnitude of numerical values.  
 
-Model Iteration 2: In iteration 2, I decided to run 2 different classifiers on dataset.  i. Logistic regression and ii. Random Forest.  
+Model Iteration 2:  
+In iteration 2, I decided to run 2 different classifiers on dataset.  i. Logistic regression and ii. Random Forest.  
 This time Logistic Regression model went rouge and predicted all classes to 0 and achieved the accuracy of 76%.  
 Random Forest was seems to perform well on train and test dataset as well. It got 100% of accuracy on train set and around 75% on validation set.  
-
-                                                         
+![Readme7](https://github.com/shivendrapratap2/Machine-Learning-And-Data-Science/blob/master/Affinity%20Analysis/Images/rf_train.PNG)
+![Readme8](https://github.com/shivendrapratap2/Machine-Learning-And-Data-Science/blob/master/Affinity%20Analysis/Images/rf_val.PNG)                                                        
 Observation:
 i.	Logistic Regression model was not working with our choices. 
 ii.	Random Forest model was overfit.
